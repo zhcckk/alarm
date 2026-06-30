@@ -1,7 +1,5 @@
 # alarm
-闹钟可实现闹钟，倒计时，秒表，查看实时时间4个功能
-
-
+//闹钟可实现闹钟，倒计时，秒表，查看实时时间4个功能
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<graphics.h>
