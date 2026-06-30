@@ -1,5 +1,7 @@
 # alarm
 闹钟可实现闹钟，倒计时，秒表，查看实时时间4个功能
+
+
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<graphics.h>
@@ -19,7 +21,6 @@ int main()
 	int set_h = 1;               // 设置的小时数（滚轮调整用）
 	int set_m = 0;
 	int stopwatch_run = 0;
-	
 	clock_t sw_start = 0;
 	double sw_total = 0;
 	initgraph(400, 300);
